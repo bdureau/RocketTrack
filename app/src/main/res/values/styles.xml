@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style
+        name="Theme.Default"
+        parent="Theme.AppCompat.Light.DarkActionBar"
+         >
+    </style>
+
+    <style
+        name="Theme.NoTitle"
+        parent="Theme.AppCompat.Light.DarkActionBar">
+    </style>
+    <!--parent="@android:style/Theme.NoTitleBar" >
+    parent="@android:style/Theme.NoTitleBar.Fullscreen"
+    -->
+
+    <style
+        name="Theme.FullScreen"
+        parent="Theme.AppCompat.Light.DarkActionBar" >
+    </style>
+
+</resources>

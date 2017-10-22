@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/GpsStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="GPS Status"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/LatitudeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/GpsStatus"
+        android:text="Latitude: "
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/Latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GpsStatus"
+        android:layout_toRightOf="@id/LatitudeLabel"
+        android:ems="8"
+        android:text=""
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/Longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/GpsStatus"
+        android:ems="8"
+        android:text=""
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/LongitudeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/GpsStatus"
+        android:layout_toLeftOf="@id/Longitude"
+        android:text="Longitude: "
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/BearingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/LatitudeLabel"
+        android:text="Bearing:"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/Bearing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LatitudeLabel"
+        android:layout_toRightOf="@id/BearingLabel"
+        android:ems="8"
+        android:text=""
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/Distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/Longitude"
+        android:ems="8"
+        android:text=""
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/DistanceLbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LongitudeLabel"
+        android:layout_toLeftOf="@id/Distance"
+        android:text="Distance:"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/AltitudeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/BearingLabel"
+        android:text="Altitude:"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/Altitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BearingLabel"
+        android:layout_toRightOf="@id/AltitudeLabel"
+        android:ems="8"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/MaxAlt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/Distance"
+        android:ems="8"
+        android:text=""
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/MaxAltLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/DistanceLbl"
+        android:layout_toLeftOf="@id/MaxAlt"
+        android:text="Max Alt:"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Latitude:"
+        android:id="@+id/lbl_myLatView"
+        android:layout_below="@+id/AltitudeLabel"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Longitude:"
+        android:id="@+id/lbl_myLonView"
+        android:layout_below="@+id/lbl_myLatView"
+        android:ems="8"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myLatView"
+        android:layout_below="@+id/Altitude"
+        android:textColor="#FFFFFF"
+        android:layout_alignEnd="@+id/Altitude"
+        android:layout_toEndOf="@+id/lbl_myLatView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/myLonView"
+        android:ems="8"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/myLatView"
+        android:layout_toEndOf="@+id/lbl_myLonView" />
+
+</RelativeLayout>

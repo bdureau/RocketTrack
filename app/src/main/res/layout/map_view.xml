@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/info_overlay"/>
+        
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:orientation="vertical"
+        android:padding="0dp" >
+
+        <ToggleButton
+            android:id="@+id/chkFollowMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:textOff="Follow me"
+            android:textOn="Follow me" />
+
+    </LinearLayout>
+
+</FrameLayout>

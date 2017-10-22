@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/prefcat_units" >
+        <ListPreference
+            android:defaultValue="Metric"
+            android:entries="@array/unitItems"
+            android:entryValues="@array/unitValues"
+            android:key="unitPref"
+            android:summary="@string/pref_unit_description"
+            android:title="@string/pref_units" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="aglPref"
+            android:summary="@string/pref_agl_description"
+            android:title="@string/pref_agl"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefcat_misc" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="keepScreenOn"
+            android:summary="@string/pref_keep_screen_on_summary"
+            android:title="@string/pref_keep_screen_on" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

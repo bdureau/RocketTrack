@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RocketTrack</string>
+    <string name="bt_not_enabled">Bluetooth was not enabled.</string>
+    <string name="gps_not_enabled">GPS was not enabled.</string>
+    <string name="memory_card_not_available">Memory card not available</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices…</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect_device">Connect Tracker</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="save_recording">Save Recording</string>
+    <string name="menu_preferences">Preferences</string>
+
+
+    <!-- Service -->
+    <string name="telemetry_service_label">RocketTrack Telemetry Service</string>
+    <string name="telemetry_service_connecting">Connecting to</string>
+    <string name="telemetry_service_connected">Connected to</string>
+    <string name="telemetry_service_started">RocketTrack Telemetry Service Started</string>
+    <string name="telemetry_service_stopped">RocketTrack Telemetry Service Stopped</string>
+
+    <!-- Preferences -->
+    <string name="prefcat_units">Units</string>
+    <string name="prefcat_misc">Misc</string>
+    <string name="pref_keep_screen_on">Keep screen on</string>
+    <string name="pref_keep_screen_on_summary">Disables screen saver</string>
+    <string name="pref_unit_description">Select metric or US settings</string>
+    <string name="pref_units">Units</string>
+    <string name="pref_agl">AGL</string>
+    <string name="pref_agl_description">Display altitude as AGL</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
