@@ -98,7 +98,7 @@ implements SensorEventListener, LocationListener, GpsStatus.Listener {
 	private ExponentialAverage magnetAverage = new ExponentialAverage(3,.25f);
 
 	// Sensor values
-	private int mPreviousState = -1;	
+	private int mPreviousState = -1;
 
 	protected LocationManager mLocationManager;
 
@@ -135,7 +135,7 @@ implements SensorEventListener, LocationListener, GpsStatus.Listener {
 			return 0f;
 		}
 		//Log.d(TAG, "getAzimuth " + accMagOrientation[0]);
-		Toast.makeText(getActivity(), "In azimuth", Toast.LENGTH_SHORT).show();
+		//Toast.makeText(getActivity(), "In azimuth", Toast.LENGTH_SHORT).show();
 		float azimuth = (float)Math.toDegrees(accMagOrientation[0]);
 		azimuth = (azimuth +360) % 360;
 		//Log.d(TAG, "getAzimuth " + azimuth);
@@ -159,7 +159,7 @@ implements SensorEventListener, LocationListener, GpsStatus.Listener {
 			return value;
 		}else{
 			return 180 + (180 + value);
-		}	
+		}
 	}
 
 	@Override

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RocketTrack</string>
+    <string name="bt_not_enabled">Le Bluetooth n\'a pas été activé.</string>
+    <string name="gps_not_enabled">Le GPS n\'a pas été activé.</string>
+    <string name="memory_card_not_available">La carte m\'est pas disponible</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices…</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="connect_device">Connecter Tracker</string>
+    <string name="stop_service">Stopper Service</string>
+    <string name="save_recording">Sauvegarder</string>
+    <string name="menu_preferences">Préferences</string>
+
+
+    <!-- Service -->
+    <string name="telemetry_service_label">RocketTrack Telemetry Service</string>
+    <string name="telemetry_service_connecting">Connection à</string>
+    <string name="telemetry_service_connected">Connecté à</string>
+    <string name="telemetry_service_started">RocketTrack Telemetry Service Started</string>
+    <string name="telemetry_service_stopped">Service de Télémetrie RocketTrack Stoppé</string>
+
+    <!-- Preferences -->
+    <string name="prefcat_units">Unités</string>
+    <string name="prefcat_misc">Divers</string>
+    <string name="pref_keep_screen_on">Keep screen on</string>
+    <string name="pref_keep_screen_on_summary">Désactiver screen saver</string>
+    <string name="pref_unit_description">Choisir metric ou US</string>
+    <string name="pref_units">Unités</string>
+    <string name="pref_agl">AGL</string>
+    <string name="pref_agl_description">Display altitude as AGL</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
